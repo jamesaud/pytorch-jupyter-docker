@@ -2,6 +2,8 @@
 
 Docker & Docker-Compose files for running Pytorch & Jupyter Notebook
 
+First, copy the Dockerfile & docker-compose file into your work directory.
+
 To build the image, first run:
 
 > docker-compose build
