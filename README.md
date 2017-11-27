@@ -15,3 +15,5 @@ Then run:
 Jupyter should be running on localhost:8888
 
 The directory with the docker-compose file is mounted, change the mounted folder in the docker-compose file.
+
+Use the Python [Default] Kernel.
