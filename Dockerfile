@@ -14,7 +14,10 @@ EXPOSE 8888
 
 WORKDIR /data
 
-CMD jupyter notebook --notebook-dir=/data --ip='*' --allow-root --port=8888 --no-browser
-
 RUN conda install pytorch torchvision cuda80 -c soumith
 
+RUN pip install tensorboardX
+
+RUN pip install tensorflow
+
+CMD jupyter notebook --notebook-dir=/data --ip='*' --allow-root --port=8888 --no-browser
